@@ -1,0 +1,175 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.App-footer > a{
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:hover{
+  color: rgb(20, 133, 177);
+  cursor: pointer;
+}
+.App-header {
+  background-color: #24282f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(229, 225, 225);
+}
+
+.grid-item{
+  background-color: rgb(219, 213, 206);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* margin-top: 5px ; */
+  width: 100%;
+}
+.grid-element{
+  background-color: rgb(219, 213, 206);
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.heading{
+  background-color: rgb(219, 213, 206);
+  font-weight: bolder;
+}
+.checkbox{
+  padding: 3px;
+  width: 20px;
+}
+#name{
+  width: 100px;
+}
+#email{
+  width: 200px;
+}
+
+#role{
+  width: 75px;
+}
+#action{
+  width: 75px;
+}
+
+.list-item{
+  list-style: none;
+}
+
+#searchbar{
+  background-color: rgb(219, 213, 206);
+  padding: 2px;
+  border-radius: 5px;
+  margin: 10px;
+  width: 400px;
+  height: 25px;
+}
+
+.pagination {
+  padding: 2%;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+  list-style: none;
+  margin: auto;
+  cursor: pointer;
+}
+
+
+.footer{
+  display: flex;
+  margin-top: 10px;
+}
+
+.edit, .submit{
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.edit:hover, .submit:hover{
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.delete, .cancel{
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(241, 47, 47);
+}
+
+.delete:hover, .cancel:hover{
+  background-color: rgb(208, 15, 15);
+  cursor: pointer;
+
+}
+.active{
+  background-color: hsl(120, 52%, 55%);
+  height: 100%;
+  width: 20px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+.pagination a{
+  padding: 10px;
+}
+.pagination a:hover{
+  background-color: azure;
+}
+
+.editInput{
+  margin: 2px;
+  border-radius: 5px;
+  width: 45%;
+}
+
+.checkbox:hover{
+  cursor: pointer;
+}
